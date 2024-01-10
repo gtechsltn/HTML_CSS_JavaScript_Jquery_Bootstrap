@@ -27,6 +27,7 @@
 + https://github.com/gtechsltn/bs3-sublime-plugin/
 
 ## Moment Timezone
++ https://cdnjs.com/libraries/moment-timezone
 + https://www.npmjs.com/package//moment-timezone
 + https://www.freecodecamp.org/news/the-ultimate-guide-to-javascript-date-and-moment-js/
 + https://viblo.asia/p/su-dung-momentjs-de-tang-cuong-xu-ly-datetime-trong-javascript-ByEZkVdWKQ0
@@ -134,6 +135,7 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
 + https://cdnjs.com/libraries/bootstrap-select
 + https://cdnjs.com/libraries/bootstrap-multiselect
 + https://cdnjs.com/libraries/moment.js
++ https://cdnjs.com/libraries/moment-timezone
 + https://cdnjs.com/libraries/highlight.js
 + https://cdnjs.com/libraries/alpaca
 + https://cdnjs.com/libraries/select2
