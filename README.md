@@ -10,6 +10,11 @@
 + **Bootstrap** version 3.4.1
 + Font Awesome version 4.7.0
 + **Moment.js** version 2.29.1
+  + https://cdnjs.cloudflare.com/ajax/libs/moment.js
+  + https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js
+  + https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js
+  + https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/vi.min.js
+  
 + Eonasdan Bootstrap Datetimepicker version 4.17.47
   + Bootstrap 3 Datetimepicker CSS
   + Moment JS
@@ -72,6 +77,16 @@
 + <a href="http://localhost:8389/" target="_blank">http://localhost:8389/</a>
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">index.html</a>
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">web.config</a>
+
+### Alpaca and Alpaca Forms
++ Alpaca - JSON Forms for jQuery and Bootstrap
++ Alpaca Forms - Easy Forms for jQuery
++ https://emberobserver.com/categories/forms
++ https://toddjordan.github.io/ember-cli-dynamic-forms/
++ https://stackoverflow.com/questions/60782452/alpaca-is-there-a-form-onready
++ https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/index.html
++ Alpaca WordPress Theme Documentation
++ https://www.loftocean.com/alpaca-doc/documentation.html
 
 ### Git
 ```
