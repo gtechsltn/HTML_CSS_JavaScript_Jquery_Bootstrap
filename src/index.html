@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -47,8 +47,11 @@
       href="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.css"
     />
 
-    <!-- Including Site.css -->
-    <link rel="stylesheet" href="Site.css" />
+    <!-- Including Site CSS -->
+    <link rel="stylesheet" href="css/site.css" />
+
+    <!-- Including Registration CSS -->
+    <link type="text/css" href="css/registration.css" rel="stylesheet" />
 
     <!-- Including jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
@@ -58,6 +61,8 @@
 
     <!-- Including Moment JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.44/moment-timezone.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.44/moment-timezone-with-data.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/vi.min.js"></script>
 
     <!-- Including Bootstrap 3 Datetimepicker JS -->
@@ -68,6 +73,9 @@
 
     <!-- Including Alpaca JS -->
     <script src="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.js"></script>
+
+    <!-- Including Registration JS -->
+    <script type="text/javascript" src="js/registration.js"></script>
   </head>
 
   <body>
@@ -236,29 +244,43 @@
           <p>Sample text put HERE</p>
         </div>
       </div>
-
-      <div class="row highlight">
-        <h3>Eonasdan Bootstrap 3 Datetimepicker</h3>
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="form-group">
-            <div class="input-group date" id="datetimepicker2">
-              <input type="text" class="form-control" />
-              <span class="input-group-addon">
-                <span class="glyphicon glyphicon-calendar"></span>
-              </span>
+      <form class="form-horizontal">
+        <div class="row highlight">
+          <h3>Eonasdan Bootstrap 3 Datetimepicker</h3>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="form-group">
+              <div class="input-group date" id="datetimepicker2">
+                <input type="text" class="form-control" />
+                <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
-        <script type="text/javascript">
-          $(function () {
-            moment.locale("vi");
-            $("#datetimepicker2").datetimepicker({
-              locale: "vi",
-            });
-          });
-        </script>
-      </div>
-
+        <div class="row highlight">
+          <h3>Moment with Time Zone in Vietnam</h3>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <label for="mmtzSG">Saigon</label>
+            <input type="text" class="form-control" id="mmtzSG" name="mmtzSG" />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <label for="mmtzHCM">Ho_Chi_Minh</label>
+            <input
+              type="text"
+              class="form-control"
+              id="mmtzHCM"
+              name="mmtzHCM"
+            />
+          </div>
+        </div>
+        <div class="row highlight">
+          <h3>Alpaca Examples</h3>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div id="form"></div>
+          </div>
+        </div>
+      </form>
       <div class="row highlight useful-row clearfix">
         <div class="col-lg-12 col-md-12 col-sm-12">
           <a href="#"> Link to stick to bottom</a>
@@ -266,6 +288,31 @@
       </div>
     </div>
     <script type="text/javascript">
+      $(function () {
+        // Bootstrap Datetimepicker
+        moment.locale("vi");
+        $("#datetimepicker2").datetimepicker({
+          locale: "vi",
+        });
+
+        // Moment Timezone: Asia/Ho_Chi_Minh
+        let mmtzHCM = moment
+          .tz("1975-06-25T01:00:00.000Z", "UTC")
+          .tz("Asia/Ho_Chi_Minh")
+          .format();
+        console.log(mmtzHCM);
+        $("#mmtzHCM").val(mmtzHCM);
+
+        // Moment Timezone: Asia/Saigon
+        let mmtzSG = moment
+          .tz("1975-06-25T01:00:00.000Z", "UTC")
+          .tz("Asia/Saigon")
+          .format();
+        console.log(mmtzSG);
+        $("#mmtzSG").val(mmtzSG);
+      });
+
+      // Automatically Close Alerts using Twitter Bootstrap
       setTimeout(function () {
         // Adding the class dynamically
         $("#alert").addClass("hide");

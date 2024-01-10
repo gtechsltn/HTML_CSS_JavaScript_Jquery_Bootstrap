@@ -21,8 +21,7 @@ a.active-link {
 }
 
 .container {
-  /* height: 100vh; */
-  min-height: 400px !important;
+  height: 80vh;
 }
 
 .useful-row {
