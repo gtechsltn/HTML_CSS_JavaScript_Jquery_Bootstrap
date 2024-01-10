@@ -73,10 +73,14 @@
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">index.html</a>
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">web.config</a>
 
-### Alpaca Forms - Easy Forms for jQuery
+### Alpaca and Alpaca Forms
++ Alpaca - JSON Forms for jQuery and Bootstrap
++ Alpaca Forms - Easy Forms for jQuery
 + https://emberobserver.com/categories/forms
-
-### Alpaca WordPress Theme Documentation
++ https://toddjordan.github.io/ember-cli-dynamic-forms/
++ https://stackoverflow.com/questions/60782452/alpaca-is-there-a-form-onready
++ https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/index.html
++ Alpaca WordPress Theme Documentation
 + https://www.loftocean.com/alpaca-doc/documentation.html
 
 ### Git
