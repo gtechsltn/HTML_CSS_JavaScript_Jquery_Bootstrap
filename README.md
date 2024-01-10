@@ -2,6 +2,11 @@
 + Windows, IIS, ASP.NET, HTTP, XML
 + HTML, CSS, JavaScript, Jquery and Bootstrap
 
+## Versions
++ jQuery version 3.7.1
++ Bootstrap version 3.4.1
++ Font Awesome version 4.7.0
+
 ### HTTP
 + <a href="http://localhost:8389/" target="_blank">http://localhost:8389/</a>
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">index.html</a>
