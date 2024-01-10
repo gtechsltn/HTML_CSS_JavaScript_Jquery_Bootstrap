@@ -1,0 +1,22 @@
+body {
+  margin: 10px;
+}
+
+.highlight {
+  border: 1px solid red;
+}
+
+.container {
+  /* height: 100vh; */
+  height: 100px;
+}
+
+.useful-row {
+  height: 100%;
+}
+
+.col-lg-12.col-md-12.col-sm-12 {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}

@@ -12,28 +12,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Including Font Awesome -->
-    <link 
-      rel="stylesheet" 
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    /> 
-    
-    <!-- Including Google Material Design Icons -->
-    <link 
-      rel="stylesheet" 
-      href="https://fonts.googleapis.com/icon?family=Material+Icons" 
-    /> 
-    
-    <!-- Including Google fonts -->
-    <link 
-      rel='stylesheet' 
-      href='https://fonts.googleapis.com/css?family=Roboto|Pacifico' 
     />
-    
+
+    <!-- Including Google Material Design Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <!-- Including Google fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto|Pacifico"
+    />
+
     <!-- Including Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
+
+    <!-- Including Site.css -->
+    <link rel="stylesheet" href="Site.css" />
 
     <!-- Including jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
@@ -43,42 +46,146 @@
   </head>
 
   <body>
-    <div class="container">
-      
-        <div class="row">
-            <div class="col-sm-12">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
-            </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Home</a>
         </div>
-        
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>Automatically closing the alert</h3>
-                <!-- Showing alert -->
-                <div id="alert" class="alert alert-danger">
-                    This alert will automatically close in 5 seconds.
-                </div>
-            </div>
-        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+              >Page 1 <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Page 1-1</a></li>
+              <li><a href="#">Page 1-2</a></li>
+              <li><a href="#">Page 1-3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Page 2</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#"
+              ><span class="glyphicon glyphicon-user"></span> Sign Up</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="glyphicon glyphicon-log-in"></span> Login</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>Font Awesome Icons</h3>
-                    <i class="fa fa-spinner fa-pulse"></i> 
-                    <i class="fa fa-car"></i> 
-                    <i class="fa fa-road"></i> 
-                    <i class="fa fa-fire"></i> 
-                    <i class="fa fa-bolt"></i> 
-                    <i class="fa fa-apple"></i> 
-                    <i class="fa fa-star fa-spin"></i>
-            </div>
-        </div>    
-    </div>    
+    <!-- container-fluid -->
+    <!-- <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> <i class="fa fa-home"></i>Home</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#"
+                >Demo
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+    <!-- container -->
+    <!-- <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> <i class="fa fa-home"></i>Home</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#"
+                >Demo
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+    <div class="container">
+      <div class="row highlight">
+        <h3>Automatically closing the alert</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <!-- Showing alert -->
+          <div class="alert alert-danger" id="alert">
+            This alert will automatically close in 5 seconds.
+          </div>
+        </div>
+      </div>
+
+      <div class="row highlight">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto.
+        </div>
+      </div>
+
+      <div class="row highlight">
+        <h3>Font Awesome Icons</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <i class="fa fa-spinner fa-pulse"></i>
+          <i class="fa fa-car"></i>
+          <i class="fa fa-road"></i>
+          <i class="fa fa-fire"></i>
+          <i class="fa fa-bolt"></i>
+          <i class="fa fa-apple"></i>
+          <i class="fa fa-star fa-spin"></i>
+        </div>
+      </div>
+      <div class="row highlight useful-row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <a href="#"> Link to stick to bottom</a>
+        </div>
+      </div>
+    </div>
     <script type="text/javascript">
       setTimeout(function () {
         // Adding the class dynamically
-        $('#alert').addClass('hide')
-      }, 5000)
+        $("#alert").addClass("hide");
+      }, 5000);
     </script>
   </body>
 </html>
