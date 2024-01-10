@@ -11,9 +11,11 @@
   + Bootstrap 3 Datetimepicker CSS
   + Moment JS
   + Bootstrap 3 Datetimepicker JS
-+ **Handlebars.js**
++ **Handlebars.js** version 4.7.8
+  + npm view handlebars version --json
   + http://www.alpacajs.org/tutorial.html
-+ **Alpaca.js**
++ **Alpaca.js** version 1.5.27
+  + npm view alpaca version --json
   + Alpaca - Easy Forms for jQuery
   + Easily create forms for your web site using jQuery, Bootstrap and JSON Schema.
   + http://www.alpacajs.org/
@@ -23,8 +25,14 @@
   + http://www.alpacajs.org/demos/bootstrap/multi-column-layouts/index.html
   + Alpaca - JSON Forms for jQuery and Bootstrap
   + https://github.com/gitana/alpaca
-+ **Highlight.js**
-+ **Ember.js**
+  + https://cdn.jsdelivr.net/npm/alpaca@<version>/dist/alpaca/bootstrap/alpaca.min.js
+  + https://cdn.jsdelivr.net/npm/alpaca@<version>/dist/alpaca/bootstrap/alpaca.min.css
++ **Highlight.js** version 11.9.0
+  + npm view highlight.js version --json
++ **Ember.js** version 5.5.0
+  + npm view ember-cli version --json
+  + npm view ember-data version --json
+  + npm view ember-source version --json
 
 ```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -32,12 +40,12 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Pacifico' />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" />
+<link type="text/css" href="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.css" rel="stylesheet" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
-https://cdn.jsdelivr.net/npm/alpaca@<version>/dist/alpaca/bootstrap/alpaca.min.js
-https://cdn.jsdelivr.net/npm/alpaca@<version>/dist/alpaca/bootstrap/alpaca.min.css
+<script src="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.js"></script>
 ```
 
 ### HTTP
