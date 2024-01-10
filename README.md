@@ -67,7 +67,7 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
   + http://www.alpacajs.org/demos/bootstrap/multi-column-layouts/index.html
   + Alpaca - JSON Forms for jQuery and Bootstrap
   + https://github.com/gitana/alpaca
-  + https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.5.27/handlebars.js
+  + https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js
   + https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.js
   + https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.css
 + **Highlight.js** version 11.9.0
