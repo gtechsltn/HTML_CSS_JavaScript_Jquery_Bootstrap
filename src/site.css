@@ -10,13 +10,19 @@ p.google-font {
   font-family: "Pacifico", cursive;
 }
 
+a.active-link {
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
 .highlight {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  border: none;
 }
 
 .container {
   /* height: 100vh; */
-  height: 400px;
+  min-height: 400px !important;
 }
 
 .useful-row {
