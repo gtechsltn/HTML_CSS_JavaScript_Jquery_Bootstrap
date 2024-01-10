@@ -163,4 +163,4 @@ Stop
 ## 10/ Samples
 + https://www.geeksforgeeks.org/how-to-automatically-close-alerts-using-twitter-bootstrap/
 + https://www.geeksforgeeks.org/how-to-place-font-awesome-icon-to-input-field/
-+ https://www.geeksforgeeks.org/pure-css-icons/
++ https://www.geeksforgeeks.org/css-to-put-icon-inside-an-input-element-in-a-form/
