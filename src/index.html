@@ -35,6 +35,12 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
 
+    <!-- Including Bootstrap 3 Datetimepicker CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"
+    />
+
     <!-- Including Site.css -->
     <link rel="stylesheet" href="Site.css" />
 
@@ -43,6 +49,12 @@
 
     <!-- Including Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Including Moment JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+
+    <!-- Including Bootstrap 3 Datetimepicker JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
   </head>
 
   <body>
@@ -53,23 +65,39 @@
         </div>
         <ul class="nav navbar-nav">
           <li><a class="active-link" href="#"> Giới thiệu</a></li>
-          <li><a href="#"> Dịch vụ</a></li>
-          <li><a href="#"> Dự án</a></li>
-          <li><a href="#"> Khách hàng</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Dịch vụ <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Dịch vụ 1</a></li>
+              <li><a href="#">Dịch vụ 2</a></li>
+              <li><a href="#">Dịch vụ 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Dự án <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Dự án 1</a></li>
+              <li><a href="#">Dự án 2</a></li>
+              <li><a href="#">Dự án 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Khách hàng <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Khách hàng 1</a></li>
+              <li><a href="#">Khách hàng 2</a></li>
+              <li><a href="#">Khách hàng 3</a></li>
+            </ul>
+          </li>
           <li><a href="#"> Blog</a></li>
           <li><a href="#"> Hoạt động</a></li>
           <li><a href="#"> Tuyển dụng</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-              >Page 1 <span class="caret"></span
-            ></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Page 1-1</a></li>
-              <li><a href="#">Page 1-2</a></li>
-              <li><a href="#">Page 1-3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Page 2</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
@@ -194,6 +222,27 @@
         <div class="col-lg-12 col-md-12 col-sm-12">
           <p>Sample text put HERE</p>
         </div>
+      </div>
+
+      <div class="row highlight">
+        <h3>Eonasdan Bootstrap 3 Datetimepicker</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="form-group">
+            <div class="input-group date" id="datetimepicker2">
+              <input type="text" class="form-control" />
+              <span class="input-group-addon">
+                <span class="glyphicon glyphicon-calendar"></span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+          $(function () {
+            $("#datetimepicker2").datetimepicker({
+              locale: "vi",
+            });
+          });
+        </script>
       </div>
 
       <div class="row highlight useful-row clearfix">
