@@ -1,6 +1,7 @@
 # HTML, CSS, JavaScript, Jquery and Bootstrap
 + Windows, IIS, ASP.NET, HTTP, XML, JSON
 + HTML, CSS, JavaScript, Jquery and Bootstrap
++ HTML language code: Vietnamese (vi), English (en)
 
 ## Versions
 + **jQuery** version 3.7.1
