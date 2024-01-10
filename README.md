@@ -2,13 +2,13 @@
 + Windows, IIS, ASP.NET, HTTP, XML, JSON
 + HTML, CSS, JavaScript, Jquery and Bootstrap
 + HTML language code: Vietnamese (vi), English (en)
-  + **en** ~ en-US ~ **English**
-  + **vi** ~ vi-VN ~ **Vietnamese**
-  + **vi-VN** ~ vi-VN ~ **Vietnamese** (Vietnam)
 + Moment Timezone in Vietnam
   + Asia/Bangkok
   + Asia/Ho_Chi_Minh
   + Asia/Saigon
++ ASP.NET Web API 2:
+  + Endpoint: /api/meeting/register
+  + Template: /src/template/registration-layout.html
 
 ## Twitter Bootstrap Examples
 + Bootstrap 3 Snippets site:www.tutorialrepublic.com
