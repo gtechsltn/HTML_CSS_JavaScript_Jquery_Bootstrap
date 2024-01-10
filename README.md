@@ -2,6 +2,24 @@
 + Windows, IIS, ASP.NET, HTTP, XML, JSON
 + HTML, CSS, JavaScript, Jquery and Bootstrap
 + HTML language code: Vietnamese (vi), English (en)
+  + en          en-US       English
+  + vi          vi-VN       Vietnamese
+  + vi-VN       vi-VN       Vietnamese (Vietnam)
++ Moment with Time Zone in Vietnam
+  + Asia/Bangkok
+  + Asia/Ho_Chi_Minh
+  + Asia/Saigon
+
+## Moment with Timezone
++ https://www.npmjs.com/package//moment-timezone
++ https://www.freecodecamp.org/news/the-ultimate-guide-to-javascript-date-and-moment-js/
++ https://viblo.asia/p/su-dung-momentjs-de-tang-cuong-xu-ly-datetime-trong-javascript-ByEZkVdWKQ0
++ Moment with Time Zone in Vietnam (Saigon and Ho_Chi_Minh)
+
+```
+moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Ho_Chi_Minh').format()
+moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
+```
 
 ## Versions
 + **jQuery** version 3.7.1
