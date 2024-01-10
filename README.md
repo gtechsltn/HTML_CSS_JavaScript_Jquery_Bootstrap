@@ -2,6 +2,16 @@
 + Windows, IIS, ASP.NET
 + HTML, CSS, JavaScript, Jquery and Bootstrap
 
+# Git
+```
+git clone https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap.git
+cd HTML_CSS_JavaScript_Jquery_Bootstrap
+dotnet new gitignore
+git checkout -b master
+git push --set-upstream origin master
+```
+
+# How to Run Command Prompt as an Administrator Using the Run Dialog
 ```
 md C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap
 md C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap\Blog
