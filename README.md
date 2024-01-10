@@ -6,14 +6,17 @@
 + jQuery version 3.7.1
 + Bootstrap version 3.4.1
 + Font Awesome version 4.7.0
++ Eonasdan Bootstrap Datetimepicker version 4.17.47
 
 ```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Pacifico' />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
 ```
 
 ### HTTP
@@ -182,3 +185,4 @@ SET physicalPath: D:\gtechsltn\HTML_CSS_JavaScript_Jquery_Bootstrap\src
 + https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_grid_stacked_to_hor&stacked=v
 + https://stackoverflow.com/questions/45029302/bootstrap-make-last-row-stretch-to-the-remaining-height-and-stick-text-to-butto
 + https://jsfiddle.net/ksiabani/wsvc4j31/
++ https://getdatepicker.com/4/
