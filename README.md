@@ -64,9 +64,45 @@ directoryBrowse in <system.webServer />
 ```
 
 # 7/ Change bindings
+
+Step 1: STOP SITE
+
+```
+%systemroot%\system32\inetsrv\AppCmd.exe stop site /site.name:"HTML_CSS_JavaScript_Jquery_Bootstrap"
+```
+
+Step 2: Remove all bindings
+
+```
+%systemroot%\system32\inetsrv\AppCmd.exe set config -section:system.applicationHost/sites /-"[name='HTML_CSS_JavaScript_Jquery_Bootstrap'].bindings.[protocol='http',bindingInformation='*:8389:']" /commit:apphost
+```
+
+Step 3: Add a bindings
+
 ```
 %systemroot%\system32\inetsrv\AppCmd.exe set site /site.name:"HTML_CSS_JavaScript_Jquery_Bootstrap" /+bindings.[protocol='http',bindingInformation='*:8389:']
 ```
+
+Step 4: Other config
+
+```
+%systemroot%\system32\inetsrv\AppCmd.exe set app "HTML_CSS_JavaScript_Jquery_Bootstrap/" /applicationPool:"Classic .NET AppPool"
+```
+
+Step 5: START SITE
+
+```
+%systemroot%\system32\inetsrv\AppCmd.exe start site /site.name:"HTML_CSS_JavaScript_Jquery_Bootstrap"
+```
+
+Step 6: Site > Browse
+
++ http://localhost:4200/
++ http://localhost:5000/
++ http://localhost:8080/
++ http://localhost:8389/
++ http://localhost:8383/
++ http://localhost:8989/
 
 # 8/ Start/Stop Site
 ```
