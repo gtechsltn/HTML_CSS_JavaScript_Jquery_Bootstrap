@@ -9,12 +9,13 @@
   + http://www.alpacajs.org/tutorial.html
 + **Bootstrap** version 3.4.1
 + Font Awesome version 4.7.0
-+ **Moment.js** version 2.29.1
++ **Moment.js** version 2.30.1
   + https://cdnjs.cloudflare.com/ajax/libs/moment.js
   + https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js
   + https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js
   + https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/vi.min.js
-  
+  + https://stackoverflow.com/questions/44287478/moment-timezone-is-using-default-locale-after-global-moment-locale-is-set
+  + https://stackoverflow.com/questions/70925008/moment-js-parse-date-with-strict-format-and-locale
 + Eonasdan Bootstrap Datetimepicker version 4.17.47
   + Bootstrap 3 Datetimepicker CSS
   + Moment JS
@@ -50,7 +51,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/vi.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.js"></script>
 ```
