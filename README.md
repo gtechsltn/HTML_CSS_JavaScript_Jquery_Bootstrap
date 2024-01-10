@@ -1,6 +1,9 @@
 # HTML, CSS, JavaScript, Jquery and Bootstrap
-+ Windows, IIS, ASP.NET
++ Windows, IIS, ASP.NET, HTTP, XML
 + HTML, CSS, JavaScript, Jquery and Bootstrap
+
+# HTTP
++ http://localhost:8389/
 
 # Git
 ```
