@@ -4,6 +4,9 @@
 
 ## Versions
 + **jQuery** version 3.7.1
++ **Handlebars.js** version 4.7.8
+  + npm view handlebars version --json
+  + http://www.alpacajs.org/tutorial.html
 + **Bootstrap** version 3.4.1
 + Font Awesome version 4.7.0
 + **Moment.js** version 2.29.1
@@ -11,9 +14,6 @@
   + Bootstrap 3 Datetimepicker CSS
   + Moment JS
   + Bootstrap 3 Datetimepicker JS
-+ **Handlebars.js** version 4.7.8
-  + npm view handlebars version --json
-  + http://www.alpacajs.org/tutorial.html
 + **Alpaca.js** version 1.5.27
   + npm view alpaca version --json
   + Alpaca - Easy Forms for jQuery
@@ -39,16 +39,34 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Pacifico' />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" />
-<link type="text/css" href="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.css" rel="stylesheet" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.js"></script>
 ```
+
+# CDN (Libraries)
++ https://cdnjs.com/libraries/jquery
++ https://cdnjs.com/libraries/handlebars.js
++ https://cdnjs.com/libraries/twitter-bootstrap
++ https://cdnjs.com/libraries/font-awesome
++ https://cdnjs.com/libraries/eonasdan-bootstrap-datetimepicker
++ https://cdnjs.com/libraries/bootstrap
++ https://cdnjs.com/libraries/bootstrap-datepicker
++ https://cdnjs.com/libraries/bootstrap-table
++ https://cdnjs.com/libraries/bootstrap-fileinput
++ https://cdnjs.com/libraries/bootstrap-select
++ https://cdnjs.com/libraries/bootstrap-multiselect
++ https://cdnjs.com/libraries/moment.js
++ https://cdnjs.com/libraries/highlight.js
++ https://cdnjs.com/libraries/alpaca
++ https://cdnjs.com/libraries/select2
++ https://cdnjs.com/libraries/datatables
 
 ### HTTP
 + <a href="http://localhost:8389/" target="_blank">http://localhost:8389/</a>
@@ -222,3 +240,4 @@ SET physicalPath: D:\gtechsltn\HTML_CSS_JavaScript_Jquery_Bootstrap\src
 + https://github.com/gitana/alpaca
 + http://www.alpacajs.org/docs/api/serialization.html
 + https://stackoverflow.com/questions/23483550/generate-forms-on-the-fly-using-emberjs-and-json-schema
++ https://www.copahost.com/blog/bootstrap-cdn-include/
