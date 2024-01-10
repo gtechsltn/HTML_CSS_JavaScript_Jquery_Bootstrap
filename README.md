@@ -5,7 +5,7 @@
   + **en** ~ en-US ~ **English**
   + **vi** ~ vi-VN ~ **Vietnamese**
   + **vi-VN** ~ vi-VN ~ **Vietnamese** (Vietnam)
-+ Moment with Time Zone in Vietnam
++ Moment Timezone in Vietnam
   + Asia/Bangkok
   + Asia/Ho_Chi_Minh
   + Asia/Saigon
@@ -26,7 +26,7 @@
 + https://github.com/JasonMortonNZ/bs3-sublime-plugin/
 + https://github.com/gtechsltn/bs3-sublime-plugin/
 
-## Moment with Timezone
+## Moment Timezone
 + https://www.npmjs.com/package//moment-timezone
 + https://www.freecodecamp.org/news/the-ultimate-guide-to-javascript-date-and-moment-js/
 + https://viblo.asia/p/su-dung-momentjs-de-tang-cuong-xu-ly-datetime-trong-javascript-ByEZkVdWKQ0
