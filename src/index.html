@@ -32,13 +32,19 @@
     <!-- Including Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css"
     />
 
     <!-- Including Bootstrap 3 Datetimepicker CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"
+    />
+
+    <!-- Including Alpaca CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.css"
     />
 
     <!-- Including Site.css -->
@@ -48,13 +54,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
 
     <!-- Including Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- Including Moment JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/vi.min.js"></script>
 
     <!-- Including Bootstrap 3 Datetimepicker JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- Including Handlebars JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js"></script>
+
+    <!-- Including Alpaca JS -->
+    <script src="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.js"></script>
   </head>
 
   <body>
@@ -218,7 +231,7 @@
       </div>
 
       <div class="row highlight">
-        <h3>Content</h3>
+        <h3>HTML Content</h3>
         <div class="col-lg-12 col-md-12 col-sm-12">
           <p>Sample text put HERE</p>
         </div>
@@ -238,6 +251,7 @@
         </div>
         <script type="text/javascript">
           $(function () {
+            moment.locale("vi");
             $("#datetimepicker2").datetimepicker({
               locale: "vi",
             });
