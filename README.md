@@ -1,5 +1,5 @@
 # HTML, CSS, JavaScript, Jquery and Bootstrap
-+ Windows, IIS, ASP.NET, HTTP, XML, JSON
++ Windows, IIS, ASP.NET, HTTP, XML, JSON, AJAX
 + HTML, CSS, JavaScript, Jquery and Bootstrap
 + HTML language code: Vietnamese (vi), English (en)
 + Moment Timezone in Vietnam
@@ -9,6 +9,9 @@
 + ASP.NET Web API 2:
   + Endpoint: /api/meeting/register
   + Template: /src/template/registration-layout.html
++ Alpaca
+  + [bower.json](https://github.com/gitana/alpaca/blob/master/bower.json)
+  + [package.json](https://github.com/gitana/alpaca/blob/master/package.json)
 
 ## Twitter Bootstrap Examples
 + Bootstrap 3 Snippets site:www.tutorialrepublic.com
@@ -98,7 +101,9 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
   + npm view ember-data version --json
   + npm view ember-source version --json
 + **Summernote**
+  + http://www.alpacajs.org/docs/fields/summernote.html
 + **Tiny MCE**
+  + http://www.alpacajs.org/docs/fields/tinymce.html
 
 ## Top Alternatives and Competitors to Intro.js
 + UserGuiding
@@ -158,6 +163,15 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
 + https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/index.html
 + Alpaca WordPress Theme Documentation
 + https://www.loftocean.com/alpaca-doc/documentation.html
++ **Alpacajs**
++ [Stack Overflow](https://stackoverflow.com/questions/tagged/alpacajs)
++ [Summernote](http://www.alpacajs.org/docs/fields/summernote.html)
++ [Tiny MCE](http://www.alpacajs.org/docs/fields/tinymce.html)
++ [CKEditor](http://www.alpacajs.org/docs/fields/ckeditor.html)
++ [Upload Files](http://www.alpacajs.org/docs/fields/upload.html)
++ [Select](http://www.alpacajs.org/docs/fields/select.html)
++ [Table](http://www.alpacajs.org/docs/fields/table.html)
++ [Table2](http://www.alpacajs.org/docs/fields/table2.html)
 
 ### Git
 ```
