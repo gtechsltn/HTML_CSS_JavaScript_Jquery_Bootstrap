@@ -1,5 +1,5 @@
 # HTML, CSS, JavaScript, Jquery and Bootstrap
-+ Windows, IIS, ASP.NET, HTTP, XML
++ Windows, IIS, ASP.NET, HTTP, XML, JSON
 + HTML, CSS, JavaScript, Jquery and Bootstrap
 
 ## Versions
@@ -11,6 +11,16 @@
   + Bootstrap 3 Datetimepicker CSS
   + Moment JS
   + Bootstrap 3 Datetimepicker JS
++ Alpaca.js
+  + Alpaca - Easy Forms for jQuery
+  + Easily create forms for your web site using jQuery, Bootstrap and JSON Schema.
+  + http://www.alpacajs.org/
+  + http://www.alpacajs.org/documentation.html
+  + http://www.alpacajs.org/examples.html
+  + This example loads data, schema and options parameters through ajax calls.
+  + http://www.alpacajs.org/demos/bootstrap/multi-column-layouts/index.html
+  + Alpaca - JSON Forms for jQuery and Bootstrap
+  + https://github.com/gitana/alpaca
 
 ```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -22,6 +32,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+https://cdn.jsdelivr.net/npm/alpaca@<version>/dist/alpaca/bootstrap/alpaca.min.js
+https://cdn.jsdelivr.net/npm/alpaca@<version>/dist/alpaca/bootstrap/alpaca.min.css
 ```
 
 ### HTTP
@@ -191,3 +203,7 @@ SET physicalPath: D:\gtechsltn\HTML_CSS_JavaScript_Jquery_Bootstrap\src
 + https://stackoverflow.com/questions/45029302/bootstrap-make-last-row-stretch-to-the-remaining-height-and-stick-text-to-butto
 + https://jsfiddle.net/ksiabani/wsvc4j31/
 + https://getdatepicker.com/4/
++ http://www.alpacajs.org/
++ https://github.com/gitana/alpaca
++ http://www.alpacajs.org/docs/api/serialization.html
++ https://stackoverflow.com/questions/23483550/generate-forms-on-the-fly-using-emberjs-and-json-schema
