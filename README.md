@@ -2,9 +2,9 @@
 + Windows, IIS, ASP.NET, HTTP, XML, JSON
 + HTML, CSS, JavaScript, Jquery and Bootstrap
 + HTML language code: Vietnamese (vi), English (en)
-  + en ~ en-US ~ English
-  + vi ~ vi-VN ~ Vietnamese
-  + vi-VN ~ vi-VN ~ Vietnamese (Vietnam)
+  + **en** ~ en-US ~ **English**
+  + **vi** ~ vi-VN ~ **Vietnamese**
+  + **vi-VN** ~ vi-VN ~ **Vietnamese** (Vietnam)
 + Moment with Time Zone in Vietnam
   + Asia/Bangkok
   + Asia/Ho_Chi_Minh
