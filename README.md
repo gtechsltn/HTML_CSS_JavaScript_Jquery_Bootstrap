@@ -11,7 +11,7 @@ git checkout -b master
 git push --set-upstream origin master
 ```
 
-# How to Run Command Prompt as an Administrator Using the Run Dialog
+# Run Command Prompt as an Administrator Using the Run Dialog
 ```
 md C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap
 md C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap\Blog
