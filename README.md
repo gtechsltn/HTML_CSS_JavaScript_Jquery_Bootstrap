@@ -25,6 +25,7 @@
   + http://www.alpacajs.org/demos/bootstrap/multi-column-layouts/index.html
   + Alpaca - JSON Forms for jQuery and Bootstrap
   + https://github.com/gitana/alpaca
+  + https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/<version>/handlebars.js
   + https://cdn.jsdelivr.net/npm/alpaca@<version>/dist/alpaca/bootstrap/alpaca.min.js
   + https://cdn.jsdelivr.net/npm/alpaca@<version>/dist/alpaca/bootstrap/alpaca.min.css
 + **Highlight.js** version 11.9.0
@@ -45,6 +46,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.js"></script>
 ```
 
@@ -216,6 +218,7 @@ SET physicalPath: D:\gtechsltn\HTML_CSS_JavaScript_Jquery_Bootstrap\src
 + https://jsfiddle.net/ksiabani/wsvc4j31/
 + https://getdatepicker.com/4/
 + http://www.alpacajs.org/
++ http://www.alpacajs.org/tutorial.html
 + https://github.com/gitana/alpaca
 + http://www.alpacajs.org/docs/api/serialization.html
 + https://stackoverflow.com/questions/23483550/generate-forms-on-the-fly-using-emberjs-and-json-schema
