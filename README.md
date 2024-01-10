@@ -43,6 +43,7 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
   + npm view handlebars version --json
   + http://www.alpacajs.org/tutorial.html
 + **Bootstrap** version 3.4.1
+  + [Bootstrap 3](https://docs.google.com/document/d/19lEPnf_m9mBqxLqmxjCH7j4Z-ubus0GYTb0GNqaMTqA/)
 + Font Awesome version 4.7.0
 + **Moment.js** version 2.30.1
   + https://cdnjs.cloudflare.com/ajax/libs/moment.js
