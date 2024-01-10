@@ -97,6 +97,8 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
   + npm view ember-cli version --json
   + npm view ember-data version --json
   + npm view ember-source version --json
++ **Summernote**
++ **Tiny MCE**
 
 ## Top Alternatives and Competitors to Intro.js
 + UserGuiding
