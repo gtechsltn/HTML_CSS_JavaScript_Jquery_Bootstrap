@@ -15,6 +15,8 @@ git push --set-upstream origin master
 git add .
 git commit -m "Add source to master"
 git push
+git checkout main
+git pull
 ```
 
 # Run Command Prompt as an Administrator Using the Run Dialog
