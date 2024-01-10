@@ -73,8 +73,24 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
 + **Highlight.js** version 11.9.0
   + npm view highlight.js version --json
 + **Intro.js**
+  + Intro.js is a lightweight JavaScript library for creating step-by-step and powerful customer onboarding tours
+  + https://github.com/usablica/intro.js
+  + https://www.npmjs.com/package/intro.js
 + **UAParser.js**
+  + https://www.npmjs.com/package/ua-parser-js
+  + https://github.com/faisalman/ua-parser-js
+  + https://github.com/willviles/ember-useragent
+    + Device Type
+    + Device Model
+    + Browser
+    + Operating System
+    + Layout Engine
+    + CPU architecture
+  + UAParser.js - Free & open-source JavaScript library to detect user's Browser, Engine, OS, CPU, and Device type/model.
+  + Runs either in browser (client-side) or node.js (server-side).
 + **Glimmer. js**
+  + Fast and light-weight UI components for the web
+  + Available for use within Ember.js and standalone apps.
 + **Ember.js** version 5.5.0
   + npm view ember-cli version --json
   + npm view ember-data version --json
