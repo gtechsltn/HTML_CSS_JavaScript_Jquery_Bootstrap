@@ -10,6 +10,11 @@
 + **Bootstrap** version 3.4.1
 + Font Awesome version 4.7.0
 + **Moment.js** version 2.29.1
+  + https://cdnjs.cloudflare.com/ajax/libs/moment.js
+  + https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js
+  + https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js
+  + https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/vi.min.js
+  
 + Eonasdan Bootstrap Datetimepicker version 4.17.47
   + Bootstrap 3 Datetimepicker CSS
   + Moment JS
