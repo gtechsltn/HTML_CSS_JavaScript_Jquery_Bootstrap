@@ -27,6 +27,7 @@
 + https://github.com/gtechsltn/bs3-sublime-plugin/
 
 ## Moment Timezone
++ https://momentjs.com/timezone/
 + https://cdnjs.com/libraries/moment-timezone
 + https://www.npmjs.com/package//moment-timezone
 + https://www.freecodecamp.org/news/the-ultimate-guide-to-javascript-date-and-moment-js/
