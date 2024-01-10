@@ -2,13 +2,21 @@ body {
   margin: 10px;
 }
 
+h3.google-font {
+  font-family: "Lobster", cursive;
+}
+
+p.google-font {
+  font-family: "Pacifico", cursive;
+}
+
 .highlight {
   border: 1px solid red;
 }
 
 .container {
   /* height: 100vh; */
-  height: 100px;
+  height: 400px;
 }
 
 .useful-row {
