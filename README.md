@@ -73,6 +73,12 @@
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">index.html</a>
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">web.config</a>
 
+### Alpaca Forms - Easy Forms for jQuery
++ https://emberobserver.com/categories/forms
+
+### Alpaca WordPress Theme Documentation
++ https://www.loftocean.com/alpaca-doc/documentation.html
+
 ### Git
 ```
 git clone https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap.git
