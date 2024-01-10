@@ -10,6 +10,22 @@
   + Asia/Ho_Chi_Minh
   + Asia/Saigon
 
+## Twitter Bootstrap Examples
++ Bootstrap 3 Snippets site:www.tutorialrepublic.com
++ Bootstrap 4 Snippets site:www.tutorialrepublic.com
++ https://www.tutorialrepublic.com/twitter-bootstrap-examples.php
++ [Bootstrap 3 Snippets](https://marketplace.visualstudio.com/items?itemName=wcwhitehead.bootstrap-3-snippets)
++ [Bootstrap 4 Snippets](https://www.tutorialrepublic.com/snippets/gallery.php)
++ https://bootsnipp.com/
++ **Bootstrap 3 Template site:bootsnipp.com**
++ https://bootdey.com/
++ https://bootdey.com/bootstrap-snippets/
++ **Bootstrap 3 Template site:bootdey.com**
++ https://github.com/chrisgillis/vim-bootstrap3-snippets/
++ https://github.com/gtechsltn/vim-bootstrap3-snippets/
++ https://github.com/JasonMortonNZ/bs3-sublime-plugin/
++ https://github.com/gtechsltn/bs3-sublime-plugin/
+
 ## Moment with Timezone
 + https://www.npmjs.com/package//moment-timezone
 + https://www.freecodecamp.org/news/the-ultimate-guide-to-javascript-date-and-moment-js/
