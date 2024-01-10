@@ -3,15 +3,17 @@
 + HTML, CSS, JavaScript, Jquery and Bootstrap
 
 ## Versions
-+ jQuery version 3.7.1
-+ Bootstrap version 3.4.1
++ **jQuery** version 3.7.1
++ **Bootstrap** version 3.4.1
 + Font Awesome version 4.7.0
-+ Moment.js version 2.29.1
++ **Moment.js** version 2.29.1
 + Eonasdan Bootstrap Datetimepicker version 4.17.47
   + Bootstrap 3 Datetimepicker CSS
   + Moment JS
   + Bootstrap 3 Datetimepicker JS
-+ Alpaca.js
++ **Handlebars.js**
+  + http://www.alpacajs.org/tutorial.html
++ **Alpaca.js**
   + Alpaca - Easy Forms for jQuery
   + Easily create forms for your web site using jQuery, Bootstrap and JSON Schema.
   + http://www.alpacajs.org/
@@ -21,6 +23,8 @@
   + http://www.alpacajs.org/demos/bootstrap/multi-column-layouts/index.html
   + Alpaca - JSON Forms for jQuery and Bootstrap
   + https://github.com/gitana/alpaca
++ **Highlight.js**
++ **Ember.js**
 
 ```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
