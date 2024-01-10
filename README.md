@@ -81,7 +81,7 @@ md C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap\Blog
 %systemroot%\system32\inetsrv\APPCMD add app /site.name:"HTML_CSS_JavaScript_Jquery_Bootstrap" /path:/blog /physicalPath:"C:\inetpub\wwwroot\HTML_CSS_JavaScript_Jquery_Bootstrap\Blog"
 ```
 
-## 4/ Assign or Change App Pool
+## 4/ Change App Pool
 
 ```
 %systemroot%\system32\inetsrv\APPCMD set site /site.name:"HTML_CSS_JavaScript_Jquery_Bootstrap" /[path='/'].applicationPool:myAppPool
@@ -156,9 +156,19 @@ Stop
 
 
 ## 9/ Set config
+
+SET defaultDocument: index.html
+
 ```
 %systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_Jquery_Bootstrap" /section:defaultDocument /+files.[value='index.html;index.htm']
 ```
+
+SET physicalPath: D:\gtechsltn\HTML_CSS_JavaScript_Jquery_Bootstrap\src
+
+```
+%systemroot%\system32\inetsrv\AppCmd.exe set vdir "HTML_CSS_JavaScript_Jquery_Bootstrap/" -physicalPath:"D:\gtechsltn\HTML_CSS_JavaScript_Jquery_Bootstrap\src"
+```
+
 
 ## 10/ Samples
 + https://www.geeksforgeeks.org/how-to-automatically-close-alerts-using-twitter-bootstrap/
