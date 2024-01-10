@@ -4,6 +4,8 @@
 
 ### HTTP
 + <a href="http://localhost:8389/" target="_blank">http://localhost:8389/</a>
++ <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">index.html</a>
++ <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">web.config</a>
 
 ### Git
 ```
