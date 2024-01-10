@@ -72,10 +72,22 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
   + https://cdn.jsdelivr.net/npm/alpaca@<version>/dist/alpaca/bootstrap/alpaca.min.css
 + **Highlight.js** version 11.9.0
   + npm view highlight.js version --json
++ **Intro.js**
++ **UAParser.js**
++ **Glimmer. js**
 + **Ember.js** version 5.5.0
   + npm view ember-cli version --json
   + npm view ember-data version --json
   + npm view ember-source version --json
+
+## Top Alternatives and Competitors to Intro.js
++ UserGuiding
++ Shepherd
++ React Joyride
++ Bootstrap Tour
++ Crumble
++ WalkMe
++ Appcues
 
 ```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
