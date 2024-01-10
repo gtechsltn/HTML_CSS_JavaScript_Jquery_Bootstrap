@@ -9,9 +9,12 @@
 + ASP.NET Web API 2:
   + Endpoint: /api/meeting/register
   + Template: /src/template/registration-layout.html
-+ Alpaca
++ **Alpaca**
   + [bower.json](https://github.com/gitana/alpaca/blob/master/bower.json)
   + [package.json](https://github.com/gitana/alpaca/blob/master/package.json)
+  + [Alpaca Form Builder](https://github.com/gitana/alpaca/blob/master/site/demos/form-builder/form-builder.html)
+  + [Advanced Upload Field](https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/fields_advanced_UploadField.js.html)
+  + [Advanced Currency Field](https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/fields_advanced_CurrencyField.js.html)
 
 ## Twitter Bootstrap Examples
 + Bootstrap 3 Snippets site:www.tutorialrepublic.com
