@@ -179,3 +179,6 @@ SET physicalPath: D:\gtechsltn\HTML_CSS_JavaScript_Jquery_Bootstrap\src
 + https://www.geeksforgeeks.org/how-to-automatically-close-alerts-using-twitter-bootstrap/
 + https://www.geeksforgeeks.org/how-to-place-font-awesome-icon-to-input-field/
 + https://www.geeksforgeeks.org/css-to-put-icon-inside-an-input-element-in-a-form/
++ https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_grid_stacked_to_hor&stacked=v
++ https://stackoverflow.com/questions/45029302/bootstrap-make-last-row-stretch-to-the-remaining-height-and-stick-text-to-butto
++ https://jsfiddle.net/ksiabani/wsvc4j31/
