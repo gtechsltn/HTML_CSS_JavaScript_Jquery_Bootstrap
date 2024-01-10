@@ -127,8 +127,11 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/vi.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.44/moment-timezone.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.44/moment-timezone-with-data.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpaca@1.5.27/dist/alpaca/bootstrap/alpaca.min.js"></script>
 ```
@@ -157,7 +160,7 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">index.html</a>
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">web.config</a>
 
-### Alpaca and Alpaca Forms
+### Alpaca Forms
 + Alpaca - JSON Forms for jQuery and Bootstrap
 + Alpaca Forms - Easy Forms for jQuery
 + https://emberobserver.com/categories/forms
@@ -166,7 +169,8 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
 + https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/index.html
 + Alpaca WordPress Theme Documentation
 + https://www.loftocean.com/alpaca-doc/documentation.html
-+ **Alpacajs**
+
+### Alpaca.js
 + [Stack Overflow](https://stackoverflow.com/questions/tagged/alpacajs)
 + [Summernote](http://www.alpacajs.org/docs/fields/summernote.html)
 + [Tiny MCE](http://www.alpacajs.org/docs/fields/tinymce.html)
@@ -174,7 +178,9 @@ moment.tz('1975-06-25T01:00:00.000Z', 'UTC').tz('Asia/Saigon').format()
 + [Upload Files](http://www.alpacajs.org/docs/fields/upload.html)
 + [Select](http://www.alpacajs.org/docs/fields/select.html)
 + [Table](http://www.alpacajs.org/docs/fields/table.html)
-+ [Table2](http://www.alpacajs.org/docs/fields/table2.html)
++ [Table 2](http://www.alpacajs.org/docs/fields/table2.html)
++ [Table 3](http://www.alpacajs.org/docs/fields/table3.html)
++ [Table 4](http://www.alpacajs.org/docs/fields/table4.html)
 
 ### Git
 ```
