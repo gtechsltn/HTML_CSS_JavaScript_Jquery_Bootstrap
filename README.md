@@ -7,6 +7,10 @@
 + Bootstrap version 3.4.1
 + Font Awesome version 4.7.0
 
+```
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+```
+
 ### HTTP
 + <a href="http://localhost:8389/" target="_blank">http://localhost:8389/</a>
 + <a href="https://github.com/gtechsltn/HTML_CSS_JavaScript_Jquery_Bootstrap/blob/main/src/index.html" target="_blank">index.html</a>
@@ -134,13 +138,7 @@ Step 5: START SITE
 ```
 
 Step 6: Site > Browse
-
-+ http://localhost:4200/
-+ http://localhost:5000/
-+ http://localhost:8080/
 + http://localhost:8389/
-+ http://localhost:8383/
-+ http://localhost:8989/
 
 ## 8/ Start Site and Stop Site
 
@@ -164,3 +162,5 @@ Stop
 
 ## 10/ Samples
 + https://www.geeksforgeeks.org/how-to-automatically-close-alerts-using-twitter-bootstrap/
++ https://www.geeksforgeeks.org/how-to-place-font-awesome-icon-to-input-field/
++ https://www.geeksforgeeks.org/pure-css-icons/
