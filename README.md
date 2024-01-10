@@ -9,6 +9,9 @@ cd HTML_CSS_JavaScript_Jquery_Bootstrap
 dotnet new gitignore
 git checkout -b master
 git push --set-upstream origin master
+git add .
+git commit -m "Add source to master"
+git push
 ```
 
 # Run Command Prompt as an Administrator Using the Run Dialog
