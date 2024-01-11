@@ -9,12 +9,45 @@
 + ASP.NET Web API 2:
   + Endpoint: /api/meeting/register
   + Template: /src/template/registration-layout.html
++ Template
+  + https://gist.githubusercontent.com/gtechsltn/b315f0092b5241f92e16a894583fcb1d/raw/3979bfdf1ea71ad55cda829005b54c6df6362173/metatags.html
 + **Alpaca**
   + [bower.json](https://github.com/gitana/alpaca/blob/master/bower.json)
   + [package.json](https://github.com/gitana/alpaca/blob/master/package.json)
   + [Alpaca Form Builder](https://github.com/gitana/alpaca/blob/master/site/demos/form-builder/form-builder.html)
   + [Advanced Upload Field](https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/fields_advanced_UploadField.js.html)
   + [Advanced Currency Field](https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/fields_advanced_CurrencyField.js.html)
+
+# Deploy
+```
+md C:\inetpub\wwwroot\HTML_CSS_JavaScript_JS_BS
+
+%systemroot%\system32\inetsrv\APPCMD add apppool /name:"HTML_CSS_JavaScript_JS_BS" /managedRuntimeVersion:v4.0
+
+%systemroot%\system32\inetsrv\APPCMD add site /name:"HTML_CSS_JavaScript_JS_BS" /bindings:http://*:5858 /physicalpath:"C:\inetpub\wwwroot\HTML_CSS_JavaScript_JS_BS"
+
+%systemroot%\system32\inetsrv\APPCMD set site /site.name:"HTML_CSS_JavaScript_JS_BS" /[path='/'].applicationPool:HTML_CSS_JavaScript_JS_BS
+
+%systemroot%\system32\inetsrv\AppCmd.exe set vdir "HTML_CSS_JavaScript_JS_BS/" -physicalPath:"d:\gtechsltn.github.io\gtechsltn.github.io"
+
+%systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_JS_BS" /section:defaultDocument /enabled:true
+
+%systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_JS_BS" /section:directoryBrowse /enabled:true
+
+%systemroot%\system32\inetsrv\AppCmd.exe set config "HTML_CSS_JavaScript_JS_BS" /section:defaultDocument /+files.[value='index.html;']
+
+%systemroot%\system32\inetsrv\AppCmd.exe stop site /site.name:"HTML_CSS_JavaScript_JS_BS"
+%systemroot%\system32\inetsrv\AppCmd.exe set config -section:system.applicationHost/sites /-"[name='HTML_CSS_JavaScript_JS_BS'].bindings.[protocol='http',bindingInformation='*:5858:']" /commit:apphost
+%systemroot%\system32\inetsrv\AppCmd.exe set site /site.name:"HTML_CSS_JavaScript_JS_BS" /+bindings.[protocol='http',bindingInformation='*:5858:']
+%systemroot%\system32\inetsrv\AppCmd.exe set app "HTML_CSS_JavaScript_JS_BS/" /applicationPool:"Classic .NET AppPool"
+%systemroot%\system32\inetsrv\APPCMD add apppool /name:"HTML_CSS_JavaScript_JS_BS" /managedRuntimeVersion:v4.0
+
+Start > Run > notepad "d:\gtechsltn.github.io\gtechsltn.github.io\web.config"
+
+Start > Run > http://localhost:5858/
+
+{"modulePrefix":"website","environment":"production","rootURL":"/","locationType":"history","EmberENV":{"EXTEND_PROTOTYPES":false,"FEATURES":{},"_APPLICATION_TEMPLATE_WRAPPER":false,"_DEFAULT_ASYNC_OBSERVERS":true,"_JQUERY_INTEGRATION":false,"_TEMPLATE_ONLY_GLIMMER_COMPONENTS":true},"APP":{"name":"website","version":"0.0.0+122e5a88"}}
+```
 
 ## Twitter Bootstrap Examples
 + Bootstrap 3 Snippets site:www.tutorialrepublic.com
