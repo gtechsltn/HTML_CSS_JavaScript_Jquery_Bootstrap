@@ -18,7 +18,17 @@
   + [Advanced Upload Field](https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/fields_advanced_UploadField.js.html)
   + [Advanced Currency Field](https://fenixrepo.fao.org/cdn/js/alpaca/1.5.17/dist/alpaca/jsdoc/fields_advanced_CurrencyField.js.html)
 
+# HTML
++ https://www.npmjs.com/package/ember-cli-sass
++ https://blog.logrocket.com/creating-responsive-data-tables-css/
++ https://css-tricks.com/responsive-data-tables/
+
 # Deploy
++ https://github.com/gtechsltn/gtechsltn.github.io/
++ https://gtechsltn.github.io/
+
+Start > Run > CMD (Ctrl + Shift + Enter)
+
 ```
 md C:\inetpub\wwwroot\HTML_CSS_JavaScript_JS_BS
 
